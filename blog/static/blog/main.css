@@ -13,11 +13,11 @@ body {
   }
   
   .bg-steel {
-    background-color: #5f788a;
+    background-color: #950740;
   }
   
   .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+    color: #ffffff;
   }
   
   .site-header .navbar-nav .nav-link:hover {
@@ -82,3 +82,25 @@ body {
   .account-heading {
     font-size: 2.5rem;
   }
+
+  a {
+    color: #950740;
+  }
+
+  .mr-2 {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #950740;
+  border-color: #950740;
+}
+
+.btn-outline-info {
+  color: #950740;
+  border-color: #950740;
+}
+
+
