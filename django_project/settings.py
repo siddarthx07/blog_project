@@ -29,6 +29,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["siddarthx07.pythonanywhere.com"]
 
+ALLOWED_HOSTS = ["127.0.0.1"]
+
 
 # Application definition
 
@@ -124,8 +126,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/' #'/static/'
-STATIC_ROOT = "/home/Siddarthx07/blog_project/django_project/blog/static/blog/"
-
+STATIC_ROOT = "/home/Siddarthx07/blog_project/django_project/blog/static/blog/" 
 
 MEDIA_ROOT= os.path.join(BASE_DIR,'media')
 
